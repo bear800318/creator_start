@@ -1,0 +1,619 @@
+2019-04-26T06:37:49.089Z - normal: Load ~/.CocosCreator/settings.json
+2019-04-26T06:37:50.351Z - normal: Initializing Asset Database
+2019-04-26T06:37:50.359Z - normal: checking language setting...
+2019-04-26T06:37:50.359Z - normal: Language: zh
+2019-04-26T06:37:51.266Z - success: preview server running at http://localhost:7456
+2019-04-26T06:37:51.268Z - success: protocol editor-framework registered
+2019-04-26T06:37:51.268Z - success: protocol app registered
+2019-04-26T06:37:51.268Z - success: protocol theme registered
+2019-04-26T06:37:51.268Z - success: protocol packages registered
+2019-04-26T06:37:51.269Z - success: protocol uuid registerred
+2019-04-26T06:37:51.269Z - success: protocol db registerred
+2019-04-26T06:37:51.269Z - success: protocol thumbnail registerred
+2019-04-26T06:37:51.269Z - success: protocol unpack registerred
+2019-04-26T06:37:51.269Z - success: protocol disable-commonjs registerred
+2019-04-26T06:37:51.503Z - normal: connected!
+2019-04-26T06:37:51.504Z - normal: Check project C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-26T06:37:51.506Z - normal: Initializing project C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-26T06:37:52.060Z - normal: Initializing Cocos2d
+2019-04-26T06:37:53.198Z - normal: Initializing engine extends
+2019-04-26T06:37:53.223Z - success: asset-db-debugger loaded
+2019-04-26T06:37:53.224Z - success: baidu-adapter loaded
+2019-04-26T06:37:53.226Z - success: code-editor loaded
+2019-04-26T06:37:53.226Z - success: color-picker loaded
+2019-04-26T06:37:53.353Z - success: fb-audience-network loaded
+2019-04-26T06:37:53.444Z - success: fb-live-stream loaded
+2019-04-26T06:37:53.453Z - success: google-play-instant loaded
+2019-04-26T06:37:53.463Z - success: huawei-runtime loaded
+2019-04-26T06:37:53.468Z - success: jsb-adapter loaded
+2019-04-26T06:37:53.478Z - success: oppo-runtime loaded
+2019-04-26T06:37:53.485Z - success: package-manager loaded
+2019-04-26T06:37:53.661Z - success: qqplay-adapter loaded
+2019-04-26T06:37:53.671Z - success: runtime-dev-tools loaded
+2019-04-26T06:37:53.675Z - success: sdkbox loaded
+2019-04-26T06:37:53.679Z - success: tester loaded
+2019-04-26T06:37:53.681Z - success: ui-grid loaded
+2019-04-26T06:37:53.683Z - success: ui-kit-preview-extra loaded
+2019-04-26T06:37:53.685Z - success: ui-kit-preview loaded
+2019-04-26T06:37:53.687Z - success: ui-kit loaded
+2019-04-26T06:37:53.689Z - success: ui-tree loaded
+2019-04-26T06:37:53.695Z - success: vivo-runtime loaded
+2019-04-26T06:37:53.696Z - success: weapp-adapter loaded
+2019-04-26T06:37:53.745Z - success: assets loaded
+2019-04-26T06:37:53.747Z - success: builder loaded
+2019-04-26T06:37:54.091Z - success: cocos-services loaded
+2019-04-26T06:37:54.095Z - success: console loaded
+2019-04-26T06:37:54.138Z - success: fb-instant-games loaded
+2019-04-26T06:37:54.140Z - success: google-instant-games loaded
+2019-04-26T06:37:54.145Z - success: hierarchy loaded
+2019-04-26T06:37:54.148Z - success: inspector loaded
+2019-04-26T06:37:54.149Z - success: keystore loaded
+2019-04-26T06:37:54.154Z - success: node-library loaded
+2019-04-26T06:37:54.155Z - success: package-asset loaded
+2019-04-26T06:37:54.157Z - success: preferences loaded
+2019-04-26T06:37:54.159Z - success: project-exporter loaded
+2019-04-26T06:37:54.160Z - success: project-importer loaded
+2019-04-26T06:37:54.163Z - success: project-settings loaded
+2019-04-26T06:37:54.167Z - success: scene loaded
+2019-04-26T06:37:54.170Z - success: simulator-debugger loaded
+2019-04-26T06:37:54.171Z - success: sprite-editor loaded
+2019-04-26T06:37:54.175Z - success: store loaded
+2019-04-26T06:37:54.179Z - success: timeline loaded
+2019-04-26T06:37:56.159Z - normal: Loading packages
+2019-04-26T06:37:56.170Z - normal: Watching packages
+2019-04-26T06:37:56.390Z - info: Cocos Services load base data!
+2019-04-26T06:37:57.224Z - normal: Run Application
+2019-04-26T07:40:18.150Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\assets\scripts\Btn.js, message: Compile error: SyntaxError: C:/Users/bear800318/Desktop/Html5/Class4/cocoscreator_tutorial/start_project/assets/scripts/Btn.js: Unexpected token, expected , (13:2)
+  11 |   // onLoad () {},
+  12 | 
+> 13 |   start() {}
+     |   ^
+  14 | 
+  15 |   // update (dt) {},
+  16 | });
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2019-04-26T07:41:00.912Z - error: Unknown type of Btn.spriteTextures, property should be defined in 'properties' or 'ctor'
+    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:279:28)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:706:33)
+    at __define (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:7:4)
+    at C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:28:13
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:35:11)
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:38:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2019-04-26T07:41:17.729Z - error: Unknown type of Btn.spriteTextures, property should be defined in 'properties' or 'ctor'
+    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:279:28)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:706:33)
+    at __define (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:7:4)
+    at C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:28:13
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:35:11)
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:38:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2019-04-26T07:43:18.587Z - error: Unknown type of Btn.spriteTextures, property should be defined in 'properties' or 'ctor'
+    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:279:28)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:706:33)
+    at __define (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:7:4)
+    at C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:28:13
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:35:11)
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:38:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2019-04-26T07:49:24.141Z - warn: The 'type' attribute of 'Btn.txt' is undefined when loading script
+2019-04-26T07:50:01.871Z - error: Property 'Btn.txt' must define at least one of 'default', 'get' or 'set'.
+    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:167:16)
+    at Object.exports.preprocessAttrs (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:215:36)
+    at declareProperties (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:642:28)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:685:17)
+    at __define (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:7:4)
+    at C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:38:13
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:45:11)
+    at Object.<anonymous> (C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\temp\quick-scripts\assets\scripts\Btn.js:48:3)
+    at Module._compile (module.js:571:32)
+2019-04-26T07:50:01.872Z - warn: The 'type' attribute of 'Btn.txt' is undefined when loading script
+2019-04-26T07:50:55.160Z - warn: The 'type' attribute of 'Btn.txt' is undefined when loading script
+2019-04-26T07:59:15.208Z - info: 只有预制节点 "btn_play" 及其子节点会被保存。
+2019-04-26T08:01:11.597Z - info: 只有预制节点 "btn_play" 及其子节点会被保存。
+2019-04-26T08:01:15.217Z - warn: The Button referenced by component "Play" is invalid. Detailed information:
+Node path: "Canvas"
+
+2019-04-26T08:05:48.064Z - warn: Failed to set property btn_play<Button> to [object Object] at target, TypeError: Cannot read property 'off' of null
+    at cc_Button._unregisterTargetEvent (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:372:27)
+    at cc_Button.notify (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:189:34)
+    at cc_Button.val.set [as target] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:44:28)
+    at n (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1373)
+    at u (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1991)
+    at y (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:3802)
+    at Object.b [as setPropertyByPath] (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:5028)
+    at Object.setProperty (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:8276)
+    at HTMLElement.set-property (C:\CocosCreator\resources\app.asar\editor\builtin\scene\panel\messages\scene-operation.js:1:782)
+    at Object.e._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1941)
+2019-04-26T08:08:10.721Z - warn: Failed to set property btn_play<Button> to [object Object] at target, TypeError: Cannot read property 'off' of null
+    at cc_Button._unregisterTargetEvent (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:372:27)
+    at cc_Button.notify (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:189:34)
+    at cc_Button.val.set [as target] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:44:28)
+    at n (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1373)
+    at u (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1991)
+    at y (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:3802)
+    at Object.b [as setPropertyByPath] (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:5028)
+    at Object.setProperty (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:8276)
+    at HTMLElement.set-property (C:\CocosCreator\resources\app.asar\editor\builtin\scene\panel\messages\scene-operation.js:1:782)
+    at Object.e._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1941)
+2019-04-26T08:08:38.406Z - warn: The Button referenced by component "Play" is invalid. Detailed information:
+Node path: "Canvas"
+
+2019-04-26T08:09:43.986Z - warn: Failed to set property btn_play<Button> to [object Object] at target, TypeError: Cannot read property 'off' of null
+    at cc_Button._unregisterTargetEvent (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:372:27)
+    at cc_Button.notify (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:189:34)
+    at cc_Button.val.set [as target] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:44:28)
+    at n (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1373)
+    at u (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1991)
+    at y (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:3802)
+    at Object.b [as setPropertyByPath] (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:5028)
+    at Object.setProperty (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:8276)
+    at HTMLElement.set-property (C:\CocosCreator\resources\app.asar\editor\builtin\scene\panel\messages\scene-operation.js:1:782)
+    at Object.e._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1941)
+2019-04-26T08:31:56.384Z - warn: Failed to set property btn_play<Button> to [object Object] at target, TypeError: Cannot read property 'off' of null
+    at cc_Button._unregisterTargetEvent (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:372:27)
+    at cc_Button.notify (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCButton.js:189:34)
+    at cc_Button.val.set [as target] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:44:28)
+    at n (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1373)
+    at u (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:1991)
+    at y (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:3802)
+    at Object.b [as setPropertyByPath] (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:5028)
+    at Object.setProperty (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils\scene.js:1:8276)
+    at HTMLElement.set-property (C:\CocosCreator\resources\app.asar\editor\builtin\scene\panel\messages\scene-operation.js:1:782)
+    at Object.e._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1941)
+2019-04-26T08:40:30.187Z - warn: The Asset used by component "cc.Button" is missing. Detailed information:
+Node path: "btn_play"
+Missing uuid: "e77acf88-1f22-4430-b636-e824d751b57e"
+
+2019-04-26T08:51:27.255Z - warn: The default value of "Play.txt" must be an empty string.
+2019-04-26T08:51:45.294Z - warn: No needs to indicate the 'cc.String' attribute for "Play.txt", which its default value is type of String.
+2019-04-26T08:51:55.880Z - warn: The type of "Play.txt" must be cc.String, not String.
+2019-04-26T08:52:05.491Z - warn: The default value of "Play.txt" must be an empty string.
+2019-04-26T08:52:16.170Z - warn: The 'type' attribute of 'Play.txt' is undefined when loading script
+2019-04-26T08:52:29.451Z - warn: The 'type' attribute of 'Play.txt' is undefined when loading script
+2019-04-26T08:52:47.324Z - warn: The default value of "Play.txt" must be an empty string.
+2019-04-29T01:05:28.161Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build",
+  "debug": false,
+  "dest": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "eb8d56f7-66b6-40d6-9b62-3eb8c21adbe7",
+    "eb95e0af-f233-4903-b68d-172bbe7fea46"
+  ],
+  "sourceMaps": false,
+  "startScene": "eb8d56f7-66b6-40d6-9b62-3eb8c21adbe7",
+  "template": "link",
+  "title": "YangYang",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "8350983f-066a-4b",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project",
+  "projectName": "YangYang",
+  "debugBuildWorker": false
+}
+2019-04-29T01:05:28.165Z - normal: Building C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-29T01:05:28.165Z - normal: Destination C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop
+2019-04-29T01:05:28.579Z - normal: Delete C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\subpackages/**/*,C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\**\*
+2019-04-29T01:06:56.797Z - normal: Start building assets
+2019-04-29T01:06:56.799Z - normal: Start spawn build-worker
+2019-04-29T01:06:57.951Z - normal: Finish spawn build-worker
+2019-04-29T01:06:57.951Z - normal: Start init build-worker
+2019-04-29T01:07:02.018Z - normal: Finish init build-worker
+2019-04-29T01:07:02.018Z - normal: Start build-assets in worker
+2019-04-29T01:07:02.471Z - normal: Finish build-assets in worker
+2019-04-29T01:07:02.477Z - normal: Finish building assets
+2019-04-29T01:07:02.494Z - normal: Start building plugin scripts
+2019-04-29T01:07:02.531Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2019-04-29T01:07:02.551Z - normal: Generating html from C:\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2019-04-29T01:07:02.569Z - normal: Built to "C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop" successfully
+2019-04-29T01:09:13.222Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build",
+  "debug": false,
+  "dest": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "eb95e0af-f233-4903-b68d-172bbe7fea46",
+    "eb8d56f7-66b6-40d6-9b62-3eb8c21adbe7"
+  ],
+  "sourceMaps": false,
+  "startScene": "eb95e0af-f233-4903-b68d-172bbe7fea46",
+  "template": "link",
+  "title": "YangYang",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "8350983f-066a-4b",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project",
+  "projectName": "YangYang",
+  "debugBuildWorker": false
+}
+2019-04-29T01:09:13.226Z - normal: Building C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-29T01:09:13.227Z - normal: Destination C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop
+2019-04-29T01:09:13.229Z - normal: Delete C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\subpackages/**/*,C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\**\*
+2019-04-29T01:09:16.069Z - normal: Start building assets
+2019-04-29T01:09:16.069Z - normal: Start spawn build-worker
+2019-04-29T01:09:17.194Z - normal: Finish spawn build-worker
+2019-04-29T01:09:17.194Z - normal: Start init build-worker
+2019-04-29T01:09:20.874Z - normal: Finish init build-worker
+2019-04-29T01:09:20.874Z - normal: Start build-assets in worker
+2019-04-29T01:09:21.230Z - normal: Finish build-assets in worker
+2019-04-29T01:09:21.237Z - normal: Finish building assets
+2019-04-29T01:09:21.254Z - normal: Start building plugin scripts
+2019-04-29T01:09:21.265Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2019-04-29T01:09:21.272Z - normal: Generating html from C:\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2019-04-29T01:09:21.296Z - normal: Built to "C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop" successfully
+2019-04-29T01:10:20.331Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build",
+  "debug": false,
+  "dest": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "eb95e0af-f233-4903-b68d-172bbe7fea46",
+    "eb8d56f7-66b6-40d6-9b62-3eb8c21adbe7"
+  ],
+  "sourceMaps": false,
+  "startScene": "eb95e0af-f233-4903-b68d-172bbe7fea46",
+  "template": "link",
+  "title": "YangYang",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "8350983f-066a-4b",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project",
+  "projectName": "YangYang",
+  "debugBuildWorker": false
+}
+2019-04-29T01:10:20.332Z - normal: Building C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-29T01:10:20.332Z - normal: Destination C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop
+2019-04-29T01:10:20.333Z - normal: Delete C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\subpackages/**/*,C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\**\*
+2019-04-29T01:10:23.047Z - normal: Start building assets
+2019-04-29T01:10:23.047Z - normal: Start spawn build-worker
+2019-04-29T01:10:24.214Z - normal: Finish spawn build-worker
+2019-04-29T01:10:24.214Z - normal: Start init build-worker
+2019-04-29T01:10:27.925Z - normal: Finish init build-worker
+2019-04-29T01:10:27.925Z - normal: Start build-assets in worker
+2019-04-29T01:10:28.268Z - normal: Finish build-assets in worker
+2019-04-29T01:10:28.274Z - normal: Finish building assets
+2019-04-29T01:10:28.287Z - normal: Start building plugin scripts
+2019-04-29T01:10:28.292Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2019-04-29T01:10:28.296Z - normal: Generating html from C:\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2019-04-29T01:10:28.319Z - normal: Built to "C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop" successfully
+2019-04-29T01:11:47.641Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build",
+  "debug": false,
+  "dest": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": 600,
+  "previewWidth": 800,
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "eb95e0af-f233-4903-b68d-172bbe7fea46",
+    "eb8d56f7-66b6-40d6-9b62-3eb8c21adbe7"
+  ],
+  "sourceMaps": false,
+  "startScene": "eb95e0af-f233-4903-b68d-172bbe7fea46",
+  "template": "link",
+  "title": "YangYang",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "8350983f-066a-4b",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project",
+  "projectName": "YangYang",
+  "debugBuildWorker": false
+}
+2019-04-29T01:11:47.642Z - normal: Building C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-29T01:11:47.642Z - normal: Destination C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop
+2019-04-29T01:11:47.643Z - normal: Delete C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\subpackages/**/*,C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\**\*
+2019-04-29T01:11:50.535Z - normal: Start building assets
+2019-04-29T01:11:50.535Z - normal: Start spawn build-worker
+2019-04-29T01:11:51.726Z - normal: Finish spawn build-worker
+2019-04-29T01:11:51.726Z - normal: Start init build-worker
+2019-04-29T01:11:55.663Z - normal: Finish init build-worker
+2019-04-29T01:11:55.663Z - normal: Start build-assets in worker
+2019-04-29T01:11:56.027Z - normal: Finish build-assets in worker
+2019-04-29T01:11:56.037Z - normal: Finish building assets
+2019-04-29T01:11:56.049Z - normal: Start building plugin scripts
+2019-04-29T01:11:56.058Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2019-04-29T01:11:56.064Z - normal: Generating html from C:\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2019-04-29T01:11:56.083Z - normal: Built to "C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop" successfully
+2019-04-29T01:12:42.176Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build",
+  "debug": false,
+  "dest": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": 640,
+  "previewWidth": 960,
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "eb95e0af-f233-4903-b68d-172bbe7fea46",
+    "eb8d56f7-66b6-40d6-9b62-3eb8c21adbe7"
+  ],
+  "sourceMaps": false,
+  "startScene": "eb95e0af-f233-4903-b68d-172bbe7fea46",
+  "template": "link",
+  "title": "YangYang",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "8350983f-066a-4b",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\bear800318\\Desktop\\Html5\\Class4\\cocoscreator_tutorial\\start_project",
+  "projectName": "YangYang",
+  "debugBuildWorker": false
+}
+2019-04-29T01:12:42.177Z - normal: Building C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project
+2019-04-29T01:12:42.177Z - normal: Destination C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop
+2019-04-29T01:12:42.178Z - normal: Delete C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\subpackages/**/*,C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop\**\*
+2019-04-29T01:12:45.107Z - normal: Start building assets
+2019-04-29T01:12:45.107Z - normal: Start spawn build-worker
+2019-04-29T01:12:46.348Z - normal: Finish spawn build-worker
+2019-04-29T01:12:46.349Z - normal: Start init build-worker
+2019-04-29T01:12:50.174Z - normal: Finish init build-worker
+2019-04-29T01:12:50.175Z - normal: Start build-assets in worker
+2019-04-29T01:12:50.525Z - normal: Finish build-assets in worker
+2019-04-29T01:12:50.538Z - normal: Finish building assets
+2019-04-29T01:12:50.551Z - normal: Start building plugin scripts
+2019-04-29T01:12:50.557Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2019-04-29T01:12:50.561Z - normal: Generating html from C:\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2019-04-29T01:12:50.583Z - normal: Built to "C:\Users\bear800318\Desktop\Html5\Class4\cocoscreator_tutorial\start_project\build\web-desktop" successfully
