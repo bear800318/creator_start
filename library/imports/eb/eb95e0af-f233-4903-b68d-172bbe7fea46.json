@@ -593,10 +593,10 @@
       "__id__": 2
     },
     "_enabled": true,
-    "textures": {
+    "btnTextures": {
       "__uuid__": "b454bf42-24c1-4262-81d9-dcc4f40ae1d8"
     },
-    "txt": "",
+    "btnTxt": "",
     "btnPrefab": {
       "__uuid__": "e639ee16-a703-4143-b5ed-d792cfd4cd32"
     },

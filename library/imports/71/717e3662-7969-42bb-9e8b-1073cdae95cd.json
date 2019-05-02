@@ -70,7 +70,6 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_zIndex": 0,
     "groupIndex": 0,
     "_id": ""
   },
@@ -82,8 +81,6 @@
       "__id__": 1
     },
     "_enabled": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
     "_spriteFrame": {
       "__uuid__": "e63f1d81-fed9-4d95-85b0-f240dba96ef9"
     },
@@ -100,6 +97,8 @@
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": null,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
     "_id": ""
   },
   {
@@ -112,6 +111,7 @@
     "_enabled": true,
     "pickRadius": 60,
     "scoreDisplay": null,
+    "progressBarDisplay": null,
     "_id": ""
   },
   {
