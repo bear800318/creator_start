@@ -15,14 +15,15 @@
   <meta name="renderer" content="webkit"/>
   <meta name="force-rendering" content="webkit"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  
+
   <link rel="stylesheet" type="text/css" href="style-desktop.css"/>
+  <link rel="icon" href="favicon.ico"/>
 </head>
 <body>
 <h1 class="header">YangYang</h1>
 
-<div id="GameDiv" style="width:960px; height: 640px;">
-  <canvas id="GameCanvas" width="960" height="640"></canvas>
+<div id="GameDiv" style="width:1280px; height: 720px;">
+  <canvas id="GameCanvas" width="1280" height="720"></canvas>
   <div id="splash">
     <div class="progress-bar stripes">
       <span style="width: 0%"></span>
@@ -30,7 +31,7 @@
   </div>
 </div>
 
-<p class="footer">Created with <a href="http://cocos.com/cocoscreator" title="cocos creator">Cocos Creator</a></p>
+<p class="footer">Made with <a href="http://cocos.com/cocoscreator" title="cocos creator">Cocos Creator</a></p>
 
 <script src="src/settings.js" charset="utf-8"></script>
 <script src="main.js" charset="utf-8"></script>
@@ -57,16 +58,6 @@
     cocos2d.addEventListener('load', engineLoaded, false);
     document.body.appendChild(cocos2d);
 })();
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YJT6CCVM4C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YJT6CCVM4C');
 </script>
 
 </body>
